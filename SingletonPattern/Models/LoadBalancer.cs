@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SingletonPattern.Models
+﻿namespace SingletonPattern.Models
 {
+    using System;
     using System.Collections;
     class LoadBalancer
     {
