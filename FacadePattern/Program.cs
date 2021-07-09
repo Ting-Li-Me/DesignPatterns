@@ -1,9 +1,7 @@
-﻿using System;
-
-namespace FacadePattern
+﻿namespace FacadePattern
 {
-    using System;
     using Models;
+    using System;
 
     class Program
     {
