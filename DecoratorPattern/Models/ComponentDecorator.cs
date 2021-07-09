@@ -1,6 +1,6 @@
 ﻿namespace DecoratorPattern.Models
 {
-    class ComponentDecorator:VisualComponent
+    class ComponentDecorator : VisualComponent
     {
         private VisualComponent component;
 
@@ -11,7 +11,7 @@
 
         public override void Display()
         {
-            component.Display(); 
+            component.Display();
         }
     }
 }

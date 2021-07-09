@@ -3,7 +3,7 @@
     using System;
     class BlackBorderDecorator:ComponentDecorator
     {
-        public BlackBorderDecorator(ComponentDecorator component) : base(component) { }
+        public BlackBorderDecorator(VisualComponent component) : base(component) { }
 
         public override void Display()
         {

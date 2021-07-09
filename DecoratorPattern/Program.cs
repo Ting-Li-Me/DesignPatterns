@@ -6,10 +6,11 @@
     {
         static void Main(string[] args)
         {
-            VisualComponent component, componentSB;
+            VisualComponent component, componentSB, componentBB;
             component = new Window();
             componentSB = new ScrollbarDecorator(component);
-            componentSB.Display();
+            componentBB = new BlackBorderDecorator(componentSB);
+            componentBB.Display();
 
             Console.ReadLine();
         }
