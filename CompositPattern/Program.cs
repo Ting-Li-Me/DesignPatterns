@@ -1,9 +1,7 @@
-﻿using System;
-
-namespace CompositPattern
+﻿namespace CompositPattern
 {
-    using System;
     using Models;
+    using System;
 
     class Program
     {
