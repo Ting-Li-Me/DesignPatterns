@@ -1,10 +1,8 @@
-﻿using System;
-
-namespace ProxyPattern
+﻿namespace ProxyPattern
 {
-    using System;
     using Interfaces;
     using Models;
+    using System;
     class Program
     {
         static void Main(string[] args)
