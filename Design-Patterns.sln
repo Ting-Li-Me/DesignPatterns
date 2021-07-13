@@ -29,17 +29,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyweightPattern", "Flyweig
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{1D7A4C64-3BF0-4FC8-B185-E738E2A7F27A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{2D6E26DB-74AC-4B70-AA87-7F46EA8B3F31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{2D6E26DB-74AC-4B70-AA87-7F46EA8B3F31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{AB4AAD9F-0875-4875-B730-51C2013C2697}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{AB4AAD9F-0875-4875-B730-51C2013C2697}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterPattern", "InterpreterPattern\InterpreterPattern.csproj", "{7FDB2933-78EB-423E-8E13-8E03AA5C2E06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterpreterPattern", "InterpreterPattern\InterpreterPattern.csproj", "{7FDB2933-78EB-423E-8E13-8E03AA5C2E06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{200F0CBD-32F6-4E58-BB89-61C086AFE9E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{200F0CBD-32F6-4E58-BB89-61C086AFE9E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{C9BC19FE-24B5-46F9-BAE4-AC1FB5BC6D83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{C9BC19FE-24B5-46F9-BAE4-AC1FB5BC6D83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern", "MementoPattern\MementoPattern.csproj", "{B2FD6DA1-083D-4CB1-BCEF-7403028D2C5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPattern", "MementoPattern\MementoPattern.csproj", "{B2FD6DA1-083D-4CB1-BCEF-7403028D2C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{E6C97515-057F-41A1-A221-5CC8C5F90A0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{B2FD6DA1-083D-4CB1-BCEF-7403028D2C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2FD6DA1-083D-4CB1-BCEF-7403028D2C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2FD6DA1-083D-4CB1-BCEF-7403028D2C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C97515-057F-41A1-A221-5CC8C5F90A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C97515-057F-41A1-A221-5CC8C5F90A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C97515-057F-41A1-A221-5CC8C5F90A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C97515-057F-41A1-A221-5CC8C5F90A0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
