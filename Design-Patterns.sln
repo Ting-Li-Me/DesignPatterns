@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPattern", "MementoPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{E6C97515-057F-41A1-A221-5CC8C5F90A0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern.csproj", "{E65EE72C-4489-4ACA-9236-D827D9483A8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern", "StatePattern\StatePattern.csproj", "{E65EE72C-4489-4ACA-9236-D827D9483A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern2", "StatePattern2\StatePattern2.csproj", "{7C5171BA-1ED0-458A-98B9-AE6CC0C5DED1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{E65EE72C-4489-4ACA-9236-D827D9483A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E65EE72C-4489-4ACA-9236-D827D9483A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E65EE72C-4489-4ACA-9236-D827D9483A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C5171BA-1ED0-458A-98B9-AE6CC0C5DED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5171BA-1ED0-458A-98B9-AE6CC0C5DED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5171BA-1ED0-458A-98B9-AE6CC0C5DED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5171BA-1ED0-458A-98B9-AE6CC0C5DED1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

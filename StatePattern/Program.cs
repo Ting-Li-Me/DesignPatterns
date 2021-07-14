@@ -1,9 +1,7 @@
-﻿using System;
-
-namespace StatePattern
+﻿namespace StatePattern
 {
-    using System;
     using Models;
+    using System;
     class Program
     {
         static void Main(string[] args)

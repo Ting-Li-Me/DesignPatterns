@@ -1,7 +1,6 @@
-﻿using System;
-
-namespace StatePattern.Models
+﻿namespace StatePattern.Models
 {
+    using System;
     class NormalState : AccountState
     {
         public NormalState(Account acc)
