@@ -5,6 +5,6 @@
     {
         string Name { get; set; }
         void Help();
-        void BeAttached(AllyControlCenter acc);
+        void BeAttacked(AllyControlCenter acc);
     }
 }

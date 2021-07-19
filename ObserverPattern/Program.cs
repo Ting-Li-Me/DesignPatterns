@@ -23,7 +23,7 @@
             player4 = new Player("Mark");
             acc.Join(player4);
 
-            player1.BeAttached(acc);
+            player1.BeAttacked(acc);
 
             Console.ReadLine();
 

@@ -21,9 +21,9 @@ namespace ObserverPattern.Models
             Console.WriteLine($"Hold on, {this.Name} is coming!");
         }
 
-        public void BeAttached(AllyControlCenter acc)
+        public void BeAttacked(AllyControlCenter acc)
         {
-            Console.WriteLine($"{this.Name} is being attached.");
+            Console.WriteLine($"{this.Name} is being attacked.");
             acc.NotifyObserver(this.Name);
         }
     }
