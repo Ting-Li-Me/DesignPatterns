@@ -2,7 +2,7 @@
 {
     using Interfaces;
     using System;
-    class VIPDiscount : Discount
+    class VIPDiscount : IDiscount
     {
         private const double DISCOUNT = 0.5;
 

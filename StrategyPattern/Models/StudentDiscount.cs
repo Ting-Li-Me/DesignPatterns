@@ -2,7 +2,7 @@
 {
     using Interfaces;
     using System;
-    class StudentDiscount : Discount
+    class StudentDiscount : IDiscount
     {
         private const double DISCOUNT = 0.8;
 

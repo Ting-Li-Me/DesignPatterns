@@ -2,7 +2,7 @@
 {
     using Interfaces;
     using System;
-    class ChildrenDiscount : Discount
+    class ChildrenDiscount : IDiscount
     {
         private const double DISCOUNT = 10;
 

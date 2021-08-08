@@ -18,7 +18,7 @@
             string input = string.Empty;
             string type = string.Empty;
 
-            Discount discount;
+            IDiscount discount;
 
             while ((input = Console.ReadLine()) != "0")
             {

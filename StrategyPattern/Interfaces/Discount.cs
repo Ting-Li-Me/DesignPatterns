@@ -1,6 +1,6 @@
 ﻿namespace StrategyPattern.Interfaces
 {
-    interface Discount
+    interface IDiscount
     {
         double Calculate(double price);
     }
